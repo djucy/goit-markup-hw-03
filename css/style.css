@@ -36,6 +36,7 @@ p {
 .nav-container {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Logo */
@@ -113,6 +114,9 @@ p {
 .title {
   margin-top: 200px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 696px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -146,6 +150,11 @@ p {
   letter-spacing: 0.06em;
 
   color: var(--white);
+}
+.button-service:hover,
+.button-service:focus {
+  background-color: #188ce8;
+  color: #ffffff;
 }
 
 /* Our advantage section */
@@ -282,7 +291,7 @@ p {
 }
 .list-button {
   display: flex;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   justify-content: center;
   margin-top: 0;
   list-style-type: none;
