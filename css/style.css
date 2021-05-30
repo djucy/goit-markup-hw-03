@@ -275,6 +275,8 @@ p {
 }
 
 /* Section portfolio */
+
+/* Button */
 .list-button .item + .item {
   margin-left: 8px;
 }
@@ -309,6 +311,10 @@ p {
   color: var(--white);
 }
 
+/* Card */
+img {
+  display: block;
+}
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -320,6 +326,7 @@ p {
 .portfolio-list .item {
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
 .portfolio-list .item:nth-child(3n) {
   margin-right: 0;
@@ -329,7 +336,11 @@ p {
   margin-bottom: 0;
 }
 .portfolio-item-caption {
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 
   font-weight: 700px;
   font-size: 18px;
@@ -337,7 +348,12 @@ p {
   letter-spacing: 0.06em;
 }
 .portfolio-item-text {
-  margin-top: 4px;
+  padding-top: 4px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 
   font-weight: 400;
   font-size: 16px;
