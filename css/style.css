@@ -36,6 +36,8 @@ p {
 .nav-container {
   display: flex;
   align-items: center;
+}
+.section-header {
   border-bottom: 1px solid #ececec;
 }
 
